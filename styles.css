@@ -1,0 +1,151 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.h2{
+    color:blue;
+    margin-top: 10px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box-m{
+    margin-right:10px;
+}
+.box{
+    width:500px;
+    height: 75px;
+}
+
+#box-1{
+    background-color: red;
+    border: solid 2px black;
+
+}
+#box-2{
+    background-color:blue;
+    border: dotted 4px yellow;
+    
+}
+#box-3{
+    background-color: limegreen;
+    border: solid 2px purple;
+    
+}
+
+.button-container{
+  height: 50px;
+  width: 30%;
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+}
+
+
+
+.change{
+    background-color: #17a2b8;
+    color:white;
+    outline: none;
+    border:none;
+    padding: 10px;
+    border-radius: 3px;
+    width: 110px;
+}
+
+.change:hover{
+    cursor: pointer;
+}
+
+#change-all{
+    color: white;
+    background-color: #007bff;
+    outline: none;
+    border:none;
+    padding: 10px;
+    border-radius: 3px;
+    width: 90px;
+
+}
+#change-all:hover{
+    cursor: pointer;
+}
+
+.hide{
+    background-color: #17a2b8;
+    color:white;
+    outline: none;
+    border:none;
+    padding: 10px;
+    border-radius: 3px;
+    width: 90px;
+}
+.hide:hover{
+    cursor: pointer;
+}
+
+#hide-all{
+    background-color:#ffc107;
+    color: black;
+    outline: none;
+    border:none;
+    padding: 10px;
+    border-radius: 3px;
+    width: 90px;
+}
+
+#hide-all:hover{
+    cursor: pointer;
+}
+
+.button-footer-container{
+  height: 50px;
+  width: 30%;
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+}
+
+#reset-colors{
+    background-color: #dc3545;
+    color:white;
+    outline: none;
+    border:none;
+    padding: 10px;
+    border-radius: 3px;
+    width: 110px;
+}
+
+#show-all{
+    background-color:#28a745;
+    color: white;
+    outline: none;
+    border:none;
+    padding: 10px;
+    border-radius: 3px;
+    width: 90px; 
+}
+
+
+
+#reset-colors:hover{
+cursor: pointer;
+}
+
+#show-all{
+    cursor: pointer;
+}
